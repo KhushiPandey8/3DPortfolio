@@ -1,25 +1,16 @@
 export const navLinks = [
+  { id: "home", title: "Home", href: "#home" },
+  { id: "about", title: "About", href: "#about" },
+  { id: "project", title: "Projects", href: "#project" },
+  { id: "work", title: "Work", href: "#work" },
+  { id: "contact", title: "Contact", href: "#contact" },
   {
-    id: 1,
-    name: "Home",
-    href: "#home",
-  },
-  {
-    id: 2,
-    name: "About",
-    href: "#about",
-  },
-  {
-    id: 3,
-    name: "Work",
-    href: "#work",
-  },
-  {
-    id: 4,
-    name: "Contact",
-    href: "#contact",
+    id: "resume",
+    title: "My Resume",
+    link: "https://drive.google.com/file/d/1Zhv1BhmKiza7ygHI3C2qny9vMnGbxMbs/view",
   },
 ];
+
 
 export const clientReviews = [
   {
