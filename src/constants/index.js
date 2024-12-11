@@ -279,7 +279,7 @@ export const workExperiences = [
     pos: "Software Simulation Intern (Virtual)",
     duration: "2024",
     title:
-      "Completed the first phase of a virtual internship program, focusing on financial software simulations.Completed the first phase of a virtual internship program, focusing on financial software simulations.Gained hands-on experience with financial models, algorithm optimization, and data visualization techniques.Collaborated on simulated projects that emphasized real-world applications of financial technology.Demonstrated problem-solving skills by addressing critical challenges in a simulated professional environment.",
+      "Completed the first phase of a virtual internship program, focusing on financial software simulations.Gained hands-on experience with financial models, algorithm optimization, and data visualization techniques.Collaborated on simulated projects that emphasized real-world applications of financial technology.Demonstrated problem-solving skills by addressing critical challenges in a simulated professional environment.",
     icon: "/assets/figma.svg",
     animation: "clapping",
   },
