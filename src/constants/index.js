@@ -13,38 +13,6 @@ export const navLinks = [
 
 
 export const clientReviews = [
-  {
-    id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-  },
-  {
-    id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
-  },
-  {
-    id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-  },
 ];
 
 export const myProjects = [
@@ -54,7 +22,6 @@ export const myProjects = [
     subdesc:
       "Built using the MERN stack, SnapeShare also offers profile editing, follow/unfollow functionality, and comprehensive account management features such as login, signup, and logout, providing a seamless and interactive user experience.",
     href: "https://snapesharing.onrender.com/",
-    texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -91,7 +58,6 @@ export const myProjects = [
     subdesc:
       "Utilizing React for dynamic components and Tailwind CSS for flexible styling, Xero ensures adaptability and performance across all devices.",
     href: "https://xerot.netlify.app/",
-    texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -128,7 +94,7 @@ export const myProjects = [
     subdesc:
       "This project, developed with React and styled using Tailwind CSS, sets a new standard for modern web design by combining responsiveness with stunning animations.",
     href: "https://awwardwinning.netlify.app/ ",
-    texture: "/textures/project/project3.mp4",
+    // texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -167,7 +133,7 @@ export const myProjects = [
     subdesc:
       "Powered by WebSockets, ChatterGig ensures low-latency messaging and delivers a sleek, responsive interface for users to connect efficiently across devices.",
     href: "https://chattergig.onrender.com/",
-    texture: "/textures/project/project4.mp4",
+    // texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
@@ -204,7 +170,6 @@ export const myProjects = [
     subdesc:
       "Built with the MERN stack, MovieScope enables users to create accounts, post reviews, rate movies, and engage in discussions. Features include advanced search, trending movie highlights, and a responsive design for seamless usage across devices.",
     href: "https://github.com/xing24xing/MovieReview.git",
-    texture: "/textures/project/project5.mp4",
     logo: "/assets/project-logo5.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
@@ -212,6 +177,111 @@ export const myProjects = [
       boxShadow: "0px 0px 60px 0px #635BFF4D",
     },
     spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title: "FigPro - Design and Create elements like Figma",
+    desc: "FigPro is a sleek and intuitive platform for designing and creating elements similar to Figma. It offers a user-friendly interface that lets designers create professional-quality designs and prototypes quickly.",
+    subdesc: "Built with React for dynamic interactivity and styled with Tailwind CSS for responsiveness, FigPro is optimized for all devices, ensuring an efficient design experience for all users.",
+    href: "https://figpin.netlify.app/",
+    logo: "/assets/Project-logo6.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title: "EstateFinder - Find Flat and House Info",
+    desc: "EstateFinder is a comprehensive platform designed to help users easily search for flats and houses based on their preferences. Whether you're looking for a new home or investment opportunities, EstateFinder offers all the details you need.",
+    subdesc: "Utilizing dynamic data fetching from Rapid API, EstateFinder ensures real-time property listings, offering a user-friendly interface built with React and styled with Tailwind CSS for responsive and optimal performance across all devices.",
+    href: "https://estatefinder.netlify.app/",
+    logo: "/assets/Project-logo7.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+    ],
+  },
+  {
+    title: "FoodieCapital - UI and UX of Restaurant",
+    desc: "FoodieCapital is a modern platform that focuses on delivering exceptional UI and UX design for restaurant applications. It helps restaurant owners create an immersive dining experience for their customers with a visually appealing and easy-to-navigate interface.",
+    subdesc: "Built using React for dynamic user interactions and styled with Tailwind CSS for responsiveness, FoodieCapital ensures a seamless, performance-driven experience across all devices, making it the perfect choice for any restaurant looking to enhance its digital presence.",
+    href: "https://foodcapital.netlify.app/",
+    logo: "/assets/Project-logo8.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
