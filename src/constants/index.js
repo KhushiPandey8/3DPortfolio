@@ -7,7 +7,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "My Resume",
-    link: "https://drive.google.com/file/d/1Zhv1BhmKiza7ygHI3C2qny9vMnGbxMbs/view",
+    link: "https://drive.google.com/file/d/1NaaGlcseR7bB6fRAe1ab2E_bsOowkzRO/view?usp=sharing",
   },
 ];
 
