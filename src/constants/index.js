@@ -356,7 +356,7 @@ export const workExperiences = [
 ];
 // social links
 export const socialLinks = {
-  github: "https://github.com/xing24xing",
+  github: "https://github.com/KhushiPandey8",
   twitter: "https://leetcode.com/u/khushipandey2603/",
   instagram: "https://www.linkedin.com/in/khushi-pandey3/",
 };
