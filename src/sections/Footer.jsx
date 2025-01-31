@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Text */}
-      <p className="text-white-500">© 2024 Khushi Pandey. All rights reserved.</p>
+      <p className="text-white-500">© 2025 Khushi Pandey. All rights reserved.</p>
     </footer>
   );
 };
