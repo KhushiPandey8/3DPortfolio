@@ -1,0 +1,11 @@
+- name: Update Browserslist DB
+  run: npx update-browserslist-db@latest --no-git
+
+- name: Install dependencies
+  run: npm install
+
+- name: Update Browserslist DB
+  run: npx update-browserslist-db@latest --no-git
+
+- name: Build Project
+  run: npm run build
