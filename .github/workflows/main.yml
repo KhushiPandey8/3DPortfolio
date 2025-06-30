@@ -1,0 +1,29 @@
+name: CI with Browserslist Update
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Or your project’s Node version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update Browserslist DB
+        run: npx update-browserslist-db@latest --no-git
+
+      - name: Build Project
+        run: npm run build
