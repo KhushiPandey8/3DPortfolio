@@ -345,11 +345,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "JPMorgan Chase & Co.",
-    pos: "Software Simulation Intern (Virtual)",
-    duration: "2024",
+    name: "I-DigiTech Skills and Solution Pvt. Ltd",
+    pos: "Software Developer Intern",
+    duration: "Feb 2025 - May 2025",
     title:
-      "Completed the first phase of a virtual internship program, focusing on financial software simulations.Gained hands-on experience with financial models, algorithm optimization, and data visualization techniques.Collaborated on simulated projects that emphasized real-world applications of financial technology.Demonstrated problem-solving skills by addressing critical challenges in a simulated professional environment.",
+      " Built a full-stack Student Management System using React, Node.js, Express, and MySQL; deployed successfully on Hostinger VPS. Faced major challenges with MySQL data retrieval and VPS deployment — initially tested on Render using personal setup before migrating to Hostinger. Overcame DB connection issues via remote MySQL configuration using hostname/IP. Engineered a role-based login system for students and admins, managing data for 100+ users securely. Achieved a 35% boost in engagement through a responsive UI and real-time progress tracking features.",
     icon: "/assets/figma.svg",
     animation: "clapping",
   },
