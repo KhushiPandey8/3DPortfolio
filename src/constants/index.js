@@ -353,6 +353,26 @@ export const workExperiences = [
     icon: "/assets/figma.svg",
     animation: "clapping",
   },
+    {
+    id: 2,
+    name: "Hudl",
+    pos: "Sports Analyst",
+    duration: "July 2025 - Nov 2025",
+    title:
+  "Analyzed performance data from 400+ competitive matches using video tagging and statistical breakdowns to extract actionable insights for coaching staff. Identified player efficiency metrics, tactical patterns, and opponent weaknesses through frame-by-frame analysis. Automated match reporting workflows using structured CSV exports, reducing manual reporting time by 40%. Collaborated with coaches to convert data insights into strategic adjustments, improving team performance metrics across multiple tournaments.",
+    icon: "/assets/hudl.svg",
+    animation: "clapping",
+  },
+    {
+    id: 3,
+    name: "Hudl",
+    pos: "Applied Machine Learning Analyst(AML)",
+    duration: "Dec 2025 -  Present",
+    title:
+   "Worked on large-scale sports computer vision datasets, performing high-quality image and video annotations to support model training and evaluation. Contributed to data pipeline workflows including ingestion, preprocessing, validation, and structured metadata handling (CSV/JSON). Improved annotation consistency by implementing labeling guidelines and quality review processes. Assisted in automating reporting workflows for dataset health and operational KPIs using Python scripts. Collaborated closely with ML engineers and product teams to ensure clean, structured, and model-ready data delivery.",
+    icon: "/assets/hudl.svg",
+    animation: "clapping",
+  },
 ];
 // social links
 export const socialLinks = {
